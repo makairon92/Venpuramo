@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - VenPlamo</title>
+    <link rel="icon" href="img/logo.svg" type="img/svg+xml">
+    <meta name="description" content="Hubungi VenPlamo untuk pemesanan, partnership, atau pertanyaan lainnya. Kami siap membantu Anda.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <img src="img/logo.svg" alt="Logo VenPlamo">
+                    <span class="logo-text">VenPlamo</span>
+                </div>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="products.html" class="nav-link">Produk</a>
+                    <a href="about.html" class="nav-link">About Us</a>
+                    <a href="contact.html" class="nav-link active">Kontak</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Page Header -->
+            <div class="page-header">
+                <h1 class="page-title">Hubungi Kami</h1>
+                <p class="page-description">
+                    Punya pertanyaan atau ingin bekerja sama? Silakan isi form di bawah ini atau hubungi kami melalui detail yang tersedia.
+                </p>
+            </div>
+
+            <!-- Contact Form & Details -->
+            <section class="contact-form-section">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2 class="section-title-small">Informasi Kontak</h2>
+                        <p>Anda juga bisa menghubungi kami melalui detail di bawah ini atau datang langsung ke lokasi kami.</p>
+                        <ul class="contact-details-list">
+                            <li><strong>📍 Alamat:</strong> Jl. Jenderal Sudirman No. 123, Jakarta Selatan, Indonesia</li>
+                            <li><strong>📞 Telepon:</strong> (021) 555-0123</li>
+                            <li><strong>✉️ Email Umum:</strong> info@venplamo.com</li>
+                            <li><strong>✉️ Dukungan:</strong> support@venplamo.com</li>
+                            <li><strong>✉️ Partnership:</strong> partnership@venplamo.com</li>
+                        </ul>
+                    </div>
+                    <div class="contact-form-wrapper">
+                        <h2 class="section-title-small">Kirim Pesan Langsung</h2>
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Nama Lengkap</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Alamat Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subjek</label>
+                                <select id="subject" name="subject">
+                                    <option value="pemesanan">Pemesanan & Dukungan</option>
+                                    <option value="partnership">Partnership & Bisnis</option>
+                                    <option value="lainnya">Lainnya</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Pesan Anda</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 VenPlamo. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
